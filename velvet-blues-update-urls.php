@@ -3,7 +3,7 @@
 Plugin Name: Velvet Blues Update URLs
 Plugin URI: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
 Description: This plugin updates all urls in your website by replacing the old urls with the new.
-Author: Shirley Patterson
+Author: VelvetBlues.com
 Author URI: http://www.velvetblues.com/
 Version: 1.0
 */
