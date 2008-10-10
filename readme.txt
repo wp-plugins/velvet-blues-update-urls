@@ -1,5 +1,5 @@
 === Velvet Blues Update URLs ===
-Contributors: Shirley Patterson
+Contributors: Velvet Blues
 Donate link: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
 Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks
 Requires at least: 2.5
