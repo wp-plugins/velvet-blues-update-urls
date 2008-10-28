@@ -25,10 +25,10 @@ Version: 1.0
 */
 	
 /* Functions for the options page */	
-	function VBUU_add_options_page() {
-		add_options_page("Update URLs Setings", "Update Urls", "manage_options", __FILE__, "VBUU_options_page");
+	function VelvetBluesUU_add_options_page() {
+		add_options_page("Update URLs Setings", "Update Urls", "manage_options", __FILE__, "VelvetBluesUU_options_page");
 	}
-	function VBUU_options_page() {
+	function VelvetBluesUU_options_page() {
 	
 	/* Function which updates urls */
 	function VB_update_urls($links,$oldurl,$newurl) {	
@@ -88,5 +88,5 @@ Version: 1.0
 <?
 }
 	 
-add_action('admin_menu', 'VBUU_add_options_page'); 
+add_action('admin_menu', 'VelvetBluesUU_add_options_page'); 
 ?>

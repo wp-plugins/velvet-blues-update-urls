@@ -4,7 +4,7 @@ Donate link: http://www.velvetblues.com/web-development-blog/wordpress-plugin-up
 Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks
 Requires at least: 2.5
 Tested up to: 2.6.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Updates all urls and content links in your website.
 
@@ -53,3 +53,7 @@ Using this plugin is very simple. Navigate to Settings -> Update and follow the 
 == Screenshots ==
 
 1. The Admin screen for the plugin.
+
+== Update Log ==
+
+* 1.0.1 - Fixed possible interactions with other plugins.
