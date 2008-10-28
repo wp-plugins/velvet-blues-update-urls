@@ -71,13 +71,13 @@ Version: 1.0.1
 <tr>
 <th scope="row" style="width:300px;">Old URL</th>
 <td>
-	<p>http://<input name="VBUU_oldurl" type="text" id="VBUU_oldurl" value="" style="width:300px;" />/</p>
+	<p><input name="VBUU_oldurl" type="text" id="VBUU_oldurl" value="" style="width:300px;" />/</p>
 </td>
 </tr>
 <tr>
 <th scope="row" style="width:300px;">New URL</th>
 <td>
-	<p>http://<input name="VBUU_newurl" type="text" id="VBUU_newurl" value="" style="width:300px;" />/</p>
+	<p><input name="VBUU_newurl" type="text" id="VBUU_newurl" value="" style="width:300px;" />/</p>
 </td>
 </tr>
 </table>
