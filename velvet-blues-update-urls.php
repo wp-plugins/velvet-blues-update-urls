@@ -5,7 +5,7 @@ Plugin URI: http://www.velvetblues.com/web-development-blog/wordpress-plugin-upd
 Description: This plugin updates all urls in your website by replacing the old urls with the new.
 Author: Velvet Blues
 Author URI: http://www.velvetblues.com/
-Version: 1.0.1
+Version: 1.0.2
 */
 /*  Copyright 2008  Velvet Blues Web Design  (email : info@velvetblues.com)
 
@@ -85,8 +85,7 @@ Version: 1.0.1
 <input name="VBUU_settings_submit" value="Update URLs" type="submit" />
 </p>
 </form>
-<?
-}
-	 
+<?php
+} 
 add_action('admin_menu', 'VelvetBluesUU_add_options_page'); 
 ?>
