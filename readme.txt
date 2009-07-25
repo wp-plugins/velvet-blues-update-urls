@@ -1,7 +1,7 @@
 === Velvet Blues Update URLs ===
 Contributors: Velvet Blues
 Donate link: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
-Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks
+Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks, move, link, url
 Requires at least: 2.5
 Tested up to: 2.8.2
 Stable tag: 1.0.3
