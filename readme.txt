@@ -1,21 +1,21 @@
 === Velvet Blues Update URLs ===
 Contributors: Velvet Blues
 Donate link: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
-Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks, move, link, url, permalink
+Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks, move, link, url, permalink, excerpt, content links
 Requires at least: 2.5
-Tested up to: 2.8.2
-Stable tag: 1.0.3
+Tested up to: 3.0.1
+Stable tag: 2.0
 
 Updates all urls and content links in your website.
 
 == Description ==
 
-Updates all urls and content links in your website.
+If you move your WordPress website to a new domain name, you will find that internal links to pages and references to images are not updated. Instead, these links and references will point to your old domain name. This plugin fixes that problem. This Update URLs plugin updates all urls and content links in your website.
 
 Features:
 
-*   Displays current WordPress url and installation location.
-*   Choose whether links embedded in content should be updated.
+*   Choose to update permalinks
+*   Choose whether links embedded in content and excerpts should be updated
 
 == Installation ==
 
@@ -47,15 +47,16 @@ Uninstalling:
 
 == Usage ==
 
-Using this plugin is very simple. Navigate to Settings -> Update and follow the instructions. You will need to enter your old and new urls. Upon submitting, all permalinks and links will be updated.
+Using this plugin is very simple. Once it has been activated, navigate to Settings -> Update and follow the instructions. You will need to enter your old and new urls. Upon submitting, all permalinks and links will be updated.
 
 
 == Screenshots ==
 
-1. The Admin screen for the plugin.
+1. The Admin screen for the plugin. screenshot-1.png
 
 == Update Log ==
 
 * 1.0.1 - Fixed possible interactions with other plugins.
 * 1.0.2 - Fixed PHP short tag problem, so as to be compatible with all configurations.
 * 1.0.3 - Confirmed compatibility with recent WordPress releases.
+* 2.0 - Added the ability to update links in excerpt fields. Updated code for full compatibility with WordPress 3.0 releases.

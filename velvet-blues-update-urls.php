@@ -2,12 +2,12 @@
 /*
 Plugin Name: Velvet Blues Update URLs
 Plugin URI: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
-Description: This plugin updates all urls in your website by replacing the old urls with the new.
+Description: This plugin updates all urls in your website by replacing old urls with new urls.
 Author: Velvet Blues
 Author URI: http://www.velvetblues.com/
-Version: 1.0.3
+Version: 2.0
 */
-/*  Copyright 2009  Velvet Blues Web Design  (email : info@velvetblues.com)
+/*  Copyright 2010  Velvet Blues Web Design  (email : info@velvetblues.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@ Version: 1.0.3
 	
 /* Functions for the options page */	
 	function VelvetBluesUU_add_options_page() {
-		add_options_page("Update URLs Setings", "Update Urls", "manage_options", __FILE__, "VelvetBluesUU_options_page");
+		add_options_page("Update URLs Setings", "Update Urls", "manage_options", basename(__FILE__), "VelvetBluesUU_options_page");
 	}
 	function VelvetBluesUU_options_page() {
 	
@@ -40,6 +40,8 @@ Version: 1.0.3
 		//content query
 		$contquery = "UPDATE $wpdb->posts SET post_content = replace(post_content, '".$oldurl."','".$newurl."')";
 		$result = $wpdb->query( $contquery );
+		$excquery = "UPDATE $wpdb->posts SET post_excerpt = replace(post_excerpt, '".$oldurl."','".$newurl."')";
+		$result = $wpdb->query( $excquery );
 		}
 	}
 		if( isset( $_POST['VBUU_settings_submit'] ) ) {
@@ -53,31 +55,26 @@ Version: 1.0.3
 ?>
 <div class="wrap">
 <h2>Update URLs Settings</h2>
-<form method="post" action="options-general.php?page=velvet-blues-update-urls/velvet-blues-update-urls.php">
+<form method="post" action="options-general.php?page=<?php echo basename(__FILE__); ?>">
 <input type="hidden" id="_wpnonce" name="_wpnonce" value="abcab64052" />
-<p>These settings let you update both your permalinks and any urls embedded in your content. It will replace all occurences of the old url with the new url.</p>
-<p><b>Current Website Addresss:</b> <?php bloginfo('url');  ?></p>
-<p><b>Current Installation Location:</b> <?php bloginfo('wpurl'); ?></p>
-<p>If the settings above do not reflect the new location or domain, then you will need to <a href="options-general.php">update these settings</a> before or after you run this tool.</p>
+<p>These settings let you update your permalinks AND any old urls embedded in content or excerpts.<br/>It will replace all occurences of the old url with the new url.</p>
 <table class="form-table">
 <tr>
-<th scope="row" style="width:350px;">Update urls AND links in page or post content?</th>
-<td>
-	<p><input name="VBUU_update_links" type="radio" id="VBUU_update_true" value="1" checked="checked" /> <label for="VBUU_update_true">Yes</label></p>
-	<p><input name="VBUU_update_links" type="radio" id="VBUU_update_false" value="0" /> <label for="VBUU_update_false">No, I only want to update the urls, and not any links.</label></p>
-</td>
-
-</tr>
-<tr>
-<th scope="row" style="width:300px;">Old URL</th>
-<td>
-	<p><input name="VBUU_oldurl" type="text" id="VBUU_oldurl" value="" style="width:300px;" /></p>
+<th scope="row" style="width:150px;"><b>Update permalinks<br/>AS WELL AS<br/>links in site content?</b></th><td>
+	<p style="margin:0;padding:0;"><input name="VBUU_update_links" type="radio" id="VBUU_update_true" value="1" checked="checked" /> <label for="VBUU_update_true">Yes</label><br/>
+	<input name="VBUU_update_links" type="radio" id="VBUU_update_false" value="0" /> <label for="VBUU_update_false">No, I only want to update page and image urls,<br/>and not any links to pages or images that may be<br/>embedded in content.</label></p>&nbsp;<br/>&nbsp;
 </td>
 </tr>
 <tr>
-<th scope="row" style="width:300px;">New URL</th>
+<th scope="row" style="width:150px;"><b>Old URL</b></th>
 <td>
-	<p><input name="VBUU_newurl" type="text" id="VBUU_newurl" value="" style="width:300px;" /></p>
+	<input name="VBUU_oldurl" type="text" id="VBUU_oldurl" value="" style="width:300px;" />
+</td>
+</tr>
+<tr>
+<th scope="row" style="width:150px;"><b>New URL</b></th>
+<td>
+	<input name="VBUU_newurl" type="text" id="VBUU_newurl" value="" style="width:300px;" />
 </td>
 </tr>
 </table>
@@ -85,6 +82,7 @@ Version: 1.0.3
 <input name="VBUU_settings_submit" value="Update URLs" type="submit" />
 </p>
 </form>
+<p>&nbsp;<br/>Need help? Get support at the <a href="http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/" target="_blank">Velvet Blues Update URLs plugin page</a>.</p>
 <?php
 } 
 add_action('admin_menu', 'VelvetBluesUU_add_options_page'); 
