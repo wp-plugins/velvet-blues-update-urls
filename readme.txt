@@ -45,7 +45,7 @@ Uninstalling:
 
    Get support for this plugin by going to [Velvet Blues Web Development Blog](http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/). Post all questions as comments.
 
-= Why are my urls not updated?
+= Why are my urls not updated? =
 
    URLs are only replaced when an exact match is found. Be sure that you have entered the correct url and hit submit. (Note: Matching is case-sensitive.)    
 
