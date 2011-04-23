@@ -3,11 +3,11 @@
 Plugin Name: Velvet Blues Update URLs
 Plugin URI: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
 Description: This plugin updates all urls in your website by replacing old urls with new urls.
-Author: VelvetBlues.com
+Author: Velvet Blues
 Author URI: http://www.velvetblues.com/
-Version: 2.0.1
+Version: 2.0
 */
-/*  Copyright 2011  Velvet Blues Web Design  (email : info@velvetblues.com)
+/*  Copyright 2010  Velvet Blues Web Design  (email : info@velvetblues.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -25,25 +25,27 @@ Version: 2.0.1
 */
 	
 /* Functions for the options page */	
-	function VelvetBluesUU_add_options_page(){
+	function VelvetBluesUU_add_options_page() {
 		add_options_page("Update URLs Setings", "Update Urls", "manage_options", basename(__FILE__), "VelvetBluesUU_options_page");
 	}
-	function VelvetBluesUU_options_page(){
-		/* Function which updates urls */
-		function VB_update_urls($links,$oldurl,$newurl){	
-			global $wpdb;
-			//permalinks query
-			$permquery = "UPDATE $wpdb->posts SET guid = replace(guid, '".$oldurl."','".$newurl."')";
-			$result = $wpdb->query( $permquery );
-			if($links == 1){
-				//content query
-				$contquery = "UPDATE $wpdb->posts SET post_content = replace(post_content, '".$oldurl."','".$newurl."')";
-				$result = $wpdb->query( $contquery );
-				$excquery = "UPDATE $wpdb->posts SET post_excerpt = replace(post_excerpt, '".$oldurl."','".$newurl."')";
-				$result = $wpdb->query( $excquery );
-			}
+	function VelvetBluesUU_options_page() {
+	
+	/* Function which updates urls */
+	function VB_update_urls($links,$oldurl,$newurl) {	
+		global $wpdb;
+		//permalinks query
+		$permquery = "UPDATE $wpdb->posts SET guid = replace(guid, '".$oldurl."','".$newurl."')";
+		$result = $wpdb->query( $permquery );
+		if($links == 1){
+		//content query
+		$contquery = "UPDATE $wpdb->posts SET post_content = replace(post_content, '".$oldurl."','".$newurl."')";
+		$result = $wpdb->query( $contquery );
+		$excquery = "UPDATE $wpdb->posts SET post_excerpt = replace(post_excerpt, '".$oldurl."','".$newurl."')";
+		$result = $wpdb->query( $excquery );
 		}
-		if( isset( $_POST['VBUU_settings_submit'] ) ){
+	}
+		if( isset( $_POST['VBUU_settings_submit'] ) ) {
+		 
 			$vbuu_update_links = attribute_escape($_POST['VBUU_update_links']);
 			$vbuu_oldurl = attribute_escape($_POST['VBUU_oldurl']);
 			$vbuu_newurl = attribute_escape($_POST['VBUU_newurl']);
