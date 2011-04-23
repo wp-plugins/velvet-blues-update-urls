@@ -1,10 +1,10 @@
 === Velvet Blues Update URLs ===
-Contributors: Velvet Blues
+Contributors: VelvetBlues.com
 Donate link: http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
 Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks, move, link, url, permalink, excerpt, content links
 Requires at least: 2.5
-Tested up to: 3.0.1
-Stable tag: 2.0
+Tested up to: 3.1.1
+Stable tag: 2.0.1
 
 Updates all urls and content links in your website.
 
@@ -45,6 +45,10 @@ Uninstalling:
 
    Get support for this plugin by going to [Velvet Blues Web Development Blog](http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/). Post all questions as comments.
 
+= Why are my urls not updated?
+
+   URLs are only replaced when an exact match is found. Be sure that you have entered the correct url and hit submit. (Note: Matching is case-sensitive.)    
+
 == Usage ==
 
 Using this plugin is very simple. Once it has been activated, navigate to Settings -> Update and follow the instructions. You will need to enter your old and new urls. Upon submitting, all permalinks and links will be updated.
@@ -60,3 +64,4 @@ Using this plugin is very simple. Once it has been activated, navigate to Settin
 * 1.0.2 - Fixed PHP short tag problem, so as to be compatible with all configurations.
 * 1.0.3 - Confirmed compatibility with recent WordPress releases.
 * 2.0 - Added the ability to update links in excerpt fields. Updated code for full compatibility with WordPress 3.0 releases.
+* 2.0.1 - Confirmed compatibility with WordPress 3.1.x releases. Updated FAQs and Contributors.
