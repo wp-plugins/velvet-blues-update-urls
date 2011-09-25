@@ -17,7 +17,6 @@ Features:
 *   Users can choose to update links embedded in content, excerpts, or custom fields
 *   Users can choose whether to update links for attachments
 *   View how many items were updated
-*   Disabled by default, developers can choose to update ALL permalinks
 
 Get support for this plugin by going to the [Velvet Blues Update URLs plugin page](http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/). Post all questions as comments.
 
