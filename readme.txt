@@ -11,7 +11,7 @@ Updates all urls and content links in your website.
 
 == Description ==
 
-If you move your WordPress website to a new domain name, you will find that internal links to pages and references to images are not updated. Instead, these links and references will point to your old domain name. This plugin fixes that problem. This Update URLs plugin updates all urls and content links in your website.
+If you move your WordPress website to a new domain name, you will find that internal links to pages and references to images are not updated. Instead, these links and references will point to your old domain name. This plugin fixes that problem by helping you change old urls and links in your website.
 
 Features:
 *   Users can choose to update links embedded in content, excerpts, or custom fields
@@ -29,12 +29,12 @@ Installation and uninstallation are extremely simple. You can use WordPress' aut
 
 1. Download the package.
 2. Extract it to the "plugins" folder of your WordPress directory.
-3. In the Admin Panes, go to "Plugins" and activate it.
+3. In the Admin Panel, go to "Plugins" and activate it.
 4. Go to Settings -> Update URLs to use it.
 
 = Uninstalling: =
 
-1. In the Admin Panes, go to "Plugins" and deactivate the plugin.
+1. In the Admin Panel, go to "Plugins" and deactivate the plugin.
 2. Go to the "plugins" folder of your WordPress directory and delete the files/folder for this plugin.
 
 
@@ -78,6 +78,7 @@ Using this plugin is very simple. Once it has been activated, navigate to Settin
 * New error messages and field validation.
 * Made changing ALL GUIDs optional, and turned off by default.
 * Internationalized plugin.
+* Updated License to GPLv2 or later.
 * Fixed Typos
 
 = 2.0.1 =
