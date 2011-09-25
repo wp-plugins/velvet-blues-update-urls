@@ -37,6 +37,10 @@ Installation and uninstallation are extremely simple. You can use WordPress' aut
 1. In the Admin Panel, go to "Plugins" and deactivate the plugin.
 2. Go to the "plugins" folder of your WordPress directory and delete the files/folder for this plugin.
 
+= Usage: =
+
+Using this plugin is very simple. Once it has been activated, navigate to Settings -> Update URLs and follow the instructions.
+
 
 Get support for this plugin by going to the [Velvet Blues Update URLs plugin page](http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/). Post all questions as comments.
 
@@ -58,10 +62,6 @@ Get support for this plugin by going to the [Velvet Blues Update URLs plugin pag
 = This plugin saved me a lot of work. Where can I donate? =
 
    Thanks, donations help us to continue improving our plugins. [Donate Here via PayPal.](http://www.velvetblues.com/go/updateurlsdonate/)     
-
-== Usage ==
-
-Using this plugin is very simple. Once it has been activated, navigate to Settings -> Update URLs and follow the instructions.
 
 
 == Screenshots ==
