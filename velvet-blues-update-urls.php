@@ -36,11 +36,7 @@ function VelvetBluesUU_add_options_page(){
 	add_options_page("Velvet Blues Update URLs", "Update URLs", "manage_options", basename(__FILE__), "VelvetBluesUU_options_page");
 }
 function VelvetBluesUU_load_textdomain(){
-	//$locale = get_locale();
-	//$mofile = CPTPATH . '/lang/cpt-' . $locale . '.mo';
-	//if ( file_exists( $mofile ) ) {
-		load_plugin_textdomain( 'velvet-blues-update-urls', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-	//}
+	load_plugin_textdomain( 'velvet-blues-update-urls', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 function VelvetBluesUU_options_page(){
 	function VB_update_urls($options,$oldurl,$newurl){	
