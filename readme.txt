@@ -32,7 +32,6 @@ Installation and uninstallation are extremely simple. You can use WordPress' aut
 3. In the Admin Panes, go to "Plugins" and activate it.
 4. Go to Settings -> Update URLs to use it.
 
-
 = Uninstalling: =
 
 1. In the Admin Panes, go to "Plugins" and deactivate the plugin.
