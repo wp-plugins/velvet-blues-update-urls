@@ -21,19 +21,26 @@ Features:
 
 Get support for this plugin by going to the [Velvet Blues Update URLs plugin page](http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/). Post all questions as comments.
 
+
 == Installation ==
 
-Installation and uninstallation are extremely simple. This plugin works with WordPress' automatic install and can be added to your site in seconds. Manual instructions are given below.
+Installation and uninstallation are extremely simple. You can use WordPress' automatic install or follow the manual instructions below.
 
-Installing:
+= Installing: =
+
 1. Download the package.
 2. Extract it to the "plugins" folder of your WordPress directory.
 3. In the Admin Panes, go to "Plugins" and activate it.
 4. Go to Settings -> Update URLs to use it.
 
-Uninstalling:
+
+= Uninstalling: =
+
 1. In the Admin Panes, go to "Plugins" and deactivate the plugin.
 2. Go to the "plugins" folder of your WordPress directory and delete the files/folder for this plugin.
+
+
+Get support for this plugin by going to the [Velvet Blues Update URLs plugin page](http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/). Post all questions as comments.
 
 
 == Frequently Asked Questions ==
@@ -56,7 +63,7 @@ Uninstalling:
 
 == Usage ==
 
-Using this plugin is very simple. Once it has been activated, navigate to Settings -> Update and follow the instructions. You will need to enter your old and new urls. Upon submitting, all permalinks and links will be updated.
+Using this plugin is very simple. Once it has been activated, navigate to Settings -> Update URLs and follow the instructions.
 
 
 == Screenshots ==
