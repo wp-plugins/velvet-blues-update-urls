@@ -13,8 +13,7 @@ Updates all urls and content links in your website.
 
 If you move your WordPress website to a new domain name, you will find that internal links to pages and references to images are not updated. Instead, these links and references will point to your old domain name. This plugin fixes that problem by helping you change old urls and links in your website.
 
-Features:
-
+= Features: =
 *   Users can choose to update links embedded in content, excerpts, or custom fields
 *   Users can choose whether to update links for attachments
 *   View how many items were updated
