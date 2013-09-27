@@ -63,7 +63,7 @@ Get support for this plugin by going to the [Velvet Blues Update URLs plugin pag
 
    Thanks, donations help us to continue improving our plugins. [Donate Here via PayPal.](http://www.velvetblues.com/go/updateurlsdonate/)     
 
-= I'm afraid to screw this up. Will you do it for me?
+= I'm afraid to screw this up. Will you do it for me? =
 
    Of course! Velvet Blues will backup your website and replace your URLs for only $29. If you need your website moved, we charge a flat fee of $65 and will finish your move within 48 hours - week days only. For same-day or weekend jobs, we charge a flat rate of $105. Contact us at info@velvetblues.com for more information.
 
