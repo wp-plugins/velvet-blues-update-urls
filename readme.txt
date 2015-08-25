@@ -3,8 +3,8 @@ Contributors: VelvetBlues.com
 Donate link: http://www.velvetblues.com/go/updateurlsdonate/
 Tags: permalinks, urls, links, update links, move wordpress, location, update urls, update permalinks, move, link, url, permalink, excerpt, content links, excerpt links, custom field links, meta, post meta
 Requires at least: 2.5
-Tested up to: 4.0
-Stable tag: 3.2.3
+Tested up to: 4.3
+Stable tag: 3.2.4
 License: GPLv2 or later
 
 Updates all urls and content links in your website.
